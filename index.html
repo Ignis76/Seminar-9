@@ -1575,4 +1575,351 @@
             <div class="reflection-box">
                 <h3>Conclusion</h3>
                 <p>
-                    Temirbek Zhurgenov's story is of a man who believed he could develop Kazakh culture within the Soviet system. He was mistaken. The system required obedient functionaries, not independent thinkers. His death was not an anomaly—it was the system's logical conclusion: eliminating those it had raised to positions of
+                    Temirbek Zhurgenov's story is of a man who believed he could develop Kazakh culture within the Soviet system. He was mistaken. The system required obedient functionaries, not independent thinkers. His death was not an anomaly—it was the system's logical conclusion: eliminating those it had raised to positions of influence.
+                </p>
+
+                <p>
+                    This documentary film demonstrates that history is not merely abstract facts. It is human tragedy touching real people with aspirations and families. Zhurgenov was a man with ideals, with a wife, with hopes for his nation's future. His execution represents not merely a political fact but the loss of someone who might have created much beauty.
+                </p>
+
+                <p>
+                    Zhurgenov's story remains contemporary. It reminds us how rapidly authoritarian systems destroy independent thinkers. It demonstrates that culture and education carry political meaning. It teaches us to treasure intellectual freedom and remember history's victims, so such horrors never recur.
+                </p>
+
+                <p>
+                    Zhurgenov was a Kazakh leader who believed in his people's future. His execution could not erase his achievements—they remain witnesses to Kazakh culture's deep roots and tremendous potential.
+                </p>
+            </div>
+
+            <div class="evidence-box">
+                <div class="evidence-title">Recommended Further Study</div>
+                <p>
+                    This research is only a beginning toward understanding the history of repression and intellectuals' role in society. For deeper analysis, we recommend:
+                </p>
+                <ul style="margin-left: 1.5rem;">
+                    <li>Watch the complete documentary multiple times, paying attention to details and nuances</li>
+                    <li>Compare testimonies from different interviewees and identify areas of agreement or contradiction</li>
+                    <li>Research archival documents from other primary sources</li>
+                    <li>Study biographies of other Kazakh intellectuals from this period</li>
+                    <li>Discuss findings in group settings and share your conclusions</li>
+                    <li>Analyze how this history relates to contemporary questions about culture and politics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ENHANCED FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>About This Project</h4>
+            <p>
+                This comprehensive documentary analysis explores the life, legacy, and tragic death of Temirbek Zhurgenov, a pivotal figure in Kazakh intellectual history. Through careful examination of primary sources and archival evidence, we reconstruct his contributions to Kazakh education, culture, and nation-building.
+            </p>
+            <p>
+                The project demonstrates how documentary sources provide deeper historical understanding than textbooks alone can offer, revealing human dimensions of historical events often obscured by academic distance.
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Documentary Source</h4>
+            <p>
+                <strong>Film:</strong> "Temirbek Zhurgenov"<br>
+                <strong>Director:</strong> Maya Bekbayeva<br>
+                <strong>Subject Matter:</strong> Life, achievements, and execution of Kazakhstan's People's Commissar of Education<br>
+                <strong>Historical Period:</strong> 1898-1938
+            </p>
+            <ul class="footer-links">
+                <li><a href="https://youtu.be/gS-eguufW1g" target="_blank">🎬 Watch Documentary (YouTube)</a></li>
+                <li><a href="#" target="_blank">📖 Academic Sources</a></li>
+                <li><a href="#" target="_blank">🏛️ Kazakhstan Encyclopedia</a></li>
+                <li><a href="#" target="_blank">📚 Great Terror Research</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Historical Context</h4>
+            <p>
+                <strong>Course:</strong> History of Kazakhstan<br>
+                <strong>Assignment Type:</strong> Documentary Analysis with Group Discussion & Oral Presentation<br>
+                <strong>Evaluation Criteria:</strong> Documentary Evidence, Biographical Reconstruction, Historical Context Analysis, Interview Interpretation, Critical Reflection, Group Presentation Quality
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+        <div class="footer-credit">
+            <p>
+                <strong>Student:</strong> Ignis76<br>
+                <strong>Date Created:</strong> February 6, 2026<br>
+                <strong>Project Type:</strong> Historical Documentary Research
+            </p>
+        </div>
+
+        <div class="footer-credit">
+            <p>
+                This research is based on critical analysis of primary audiovisual sources. All quotations, timestamps, and visual evidence are derived directly from the documentary film by Maya Bekbayeva.
+            </p>
+            <p style="margin-top: 1rem;">
+                <a href="#" target="_blank">Terms of Use</a> | 
+                <a href="#" target="_blank">Privacy Policy</a> | 
+                <a href="#" target="_blank">Contact Us</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#" class="social-icon" title="Facebook">f</a>
+            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+            <a href="#" class="social-icon" title="Instagram">📷</a>
+            <a href="#" class="social-icon" title="LinkedIn">in</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Progress bar on scroll
+    window.addEventListener('scroll', function() {
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollProgress = (window.scrollY / scrollHeight) * 100;
+        document.getElementById('progressBar').style.width = scrollProgress + '%';
+    });
+
+    // Tab switching functionality
+    function switchTab(tabName) {
+        // Hide all tab contents
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabContents.forEach(tab => tab.classList.remove('active'));
+
+        // Remove active class from all buttons
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Show selected tab
+        const selectedTab = document.getElementById(tabName);
+        if (selectedTab) {
+            selectedTab.classList.add('active');
+        }
+
+        // Activate clicked button
+        event.target.classList.add('active');
+    }
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href !== '#') {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            }
+        });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe timeline items for animation
+    document.querySelectorAll('.timeline-item').forEach(item => {
+        observer.observe(item);
+    });
+
+    // Mobile menu functionality (if needed)
+    const navToggle = document.querySelector('.nav-toggle');
+    if (navToggle) {
+        navToggle.addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        });
+    }
+
+    // Smooth scroll behavior for mobile
+    if (window.matchMedia('(max-width: 768px)').matches) {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        const headerOffset = 100;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    }
+
+    // Add scroll event for header enhancement
+    window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.sticky-nav');
+        if (window.scrollY > 100) {
+            nav.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.4)';
+        } else {
+            nav.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.3)';
+        }
+    });
+
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', function() {
+        // Set initial styles
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateX(-30px)';
+        });
+
+        // Trigger animations
+        setTimeout(() => {
+            document.querySelectorAll('.timeline-item').forEach((item, index) => {
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateX(0)';
+                    item.style.transition = 'all 0.8s ease-out';
+                }, index * 100);
+            });
+        }, 100);
+    });
+
+    // Add keyboard navigation for tabs
+    document.querySelectorAll('.tab-btn').forEach((btn, index) => {
+        btn.addEventListener('keydown', function(e) {
+            let nextBtn;
+            if (e.key === 'ArrowRight') {
+                e.preventDefault();
+                nextBtn = this.parentElement.children[index + 1];
+                if (nextBtn) {
+                    nextBtn.focus();
+                    nextBtn.click();
+                }
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                nextBtn = this.parentElement.children[index - 1];
+                if (nextBtn) {
+                    nextBtn.focus();
+                    nextBtn.click();
+                }
+            }
+        });
+    });
+
+    // Track reading progress
+    const readingProgress = {};
+    document.querySelectorAll('section').forEach(section => {
+        readingProgress[section.id] = false;
+    });
+
+    window.addEventListener('scroll', function() {
+        document.querySelectorAll('section').forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                readingProgress[section.id] = true;
+                // Update active nav link
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + section.id) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    });
+
+    // Add active state styling for nav links
+    const style = document.createElement('style');
+    style.textContent = `
+        .nav-links a.active {
+            color: var(--gold);
+        }
+        .nav-links a.active::after {
+            width: 100%;
+        }
+    `;
+    document.head.appendChild(style);
+
+    // Prevent multiple rapid clicks on CTA button
+    const ctaButton = document.querySelector('.header-cta');
+    if (ctaButton) {
+        ctaButton.addEventListener('click', function(e) {
+            this.style.pointerEvents = 'none';
+            setTimeout(() => {
+                this.style.pointerEvents = 'auto';
+            }, 1000);
+        });
+    }
+
+    // Add print styles
+    const printStyle = document.createElement('style');
+    printStyle.textContent = `
+        @media print {
+            .sticky-nav {
+                position: static;
+            }
+            .progress-bar {
+                display: none;
+            }
+            .header-cta {
+                display: none;
+            }
+            footer {
+                page-break-before: always;
+            }
+            section {
+                page-break-inside: avoid;
+            }
+        }
+    `;
+    document.head.appendChild(printStyle);
+
+    // Accessibility: Announce page sections for screen readers
+    const observerA11y = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const title = entry.target.querySelector('h2');
+                if (title) {
+                    const announcement = document.createElement('div');
+                    announcement.setAttribute('role', 'status');
+                    announcement.setAttribute('aria-live', 'polite');
+                    announcement.textContent = 'Now reading: ' + title.textContent;
+                    announcement.style.position = 'absolute';
+                    announcement.style.left = '-10000px';
+                    document.body.appendChild(announcement);
+                }
+            }
+        });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('section').forEach(section => {
+        observerA11y.observe(section);
+    });
+
+</script>
+
+</body>
+</html>
